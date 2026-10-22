@@ -1,0 +1,645 @@
+{
+  "synthetic_data": true,
+  "seed": 8160,
+  "period": "2026-09-21–2026-10-20",
+  "comparison": "10月06–20日 vs 09月21–10月05日（各15天）",
+  "user_count": 10000,
+  "current": {
+    "active": 8889,
+    "search": 8625,
+    "detail": 8248,
+    "favorite": 7417,
+    "paying": 2538,
+    "gmv": 2789166,
+    "cvr": 0.285521,
+    "coupon_rate": 0.030561,
+    "aov": 675.833778,
+    "orders": 4127,
+    "coupon_received": 42832,
+    "coupon_used": 1309
+  },
+  "previous": {
+    "active": 7905,
+    "search": 7762,
+    "detail": 7528,
+    "favorite": 6929,
+    "paying": 2431,
+    "gmv": 2598520,
+    "cvr": 0.307527,
+    "coupon_rate": 0.031177,
+    "aov": 656.85541,
+    "orders": 3956,
+    "coupon_received": 41826,
+    "coupon_used": 1304
+  },
+  "total": {
+    "active": 9298,
+    "search": 9055,
+    "detail": 8728,
+    "favorite": 8056,
+    "paying": 3486,
+    "gmv": 5387686,
+    "cvr": 0.374919,
+    "coupon_rate": 0.030865,
+    "aov": 666.545342,
+    "orders": 8083,
+    "coupon_received": 84658,
+    "coupon_used": 2613
+  },
+  "segments": [
+    {
+      "name": "新用户",
+      "rule": "注册≤7天且访问天数<4",
+      "size": 1094,
+      "active": 869,
+      "search": 762,
+      "detail": 623,
+      "favorite": 394,
+      "paying": 55,
+      "gmv": 48156,
+      "cvr": 0.063291,
+      "coupon_rate": 0.010111,
+      "aov": 875.563636,
+      "orders": 55,
+      "coupon_received": 989,
+      "coupon_used": 10,
+      "gmv_share": 0.008938,
+      "detail_rate": 0.716916,
+      "favorite_rate": 0.632424,
+      "destinations": [
+        {
+          "name": "山水",
+          "value": 291
+        },
+        {
+          "name": "城市",
+          "value": 280
+        },
+        {
+          "name": "周边游",
+          "value": 268
+        },
+        {
+          "name": "海岛",
+          "value": 255
+        }
+      ],
+      "channels": [
+        {
+          "name": "微信",
+          "value": 237
+        },
+        {
+          "name": "自然搜索",
+          "value": 221
+        },
+        {
+          "name": "小红书",
+          "value": 221
+        },
+        {
+          "name": "短信",
+          "value": 214
+        },
+        {
+          "name": "App Push",
+          "value": 201
+        }
+      ]
+    },
+    {
+      "name": "高价值用户",
+      "rule": "活跃间隔≤7天、30天访问≥10天、累计GMV≥5000",
+      "size": 1307,
+      "active": 1307,
+      "search": 1307,
+      "detail": 1307,
+      "favorite": 1307,
+      "paying": 1279,
+      "gmv": 3912192,
+      "cvr": 0.978577,
+      "coupon_rate": 0.042288,
+      "aov": 863.618543,
+      "orders": 4530,
+      "coupon_received": 20455,
+      "coupon_used": 865,
+      "gmv_share": 0.726136,
+      "detail_rate": 1.0,
+      "favorite_rate": 1.0,
+      "destinations": [
+        {
+          "name": "山水",
+          "value": 356
+        },
+        {
+          "name": "海岛",
+          "value": 337
+        },
+        {
+          "name": "周边游",
+          "value": 309
+        },
+        {
+          "name": "城市",
+          "value": 305
+        }
+      ],
+      "channels": [
+        {
+          "name": "App Push",
+          "value": 276
+        },
+        {
+          "name": "微信",
+          "value": 265
+        },
+        {
+          "name": "小红书",
+          "value": 265
+        },
+        {
+          "name": "自然搜索",
+          "value": 256
+        },
+        {
+          "name": "短信",
+          "value": 245
+        }
+      ]
+    },
+    {
+      "name": "高意向未转化",
+      "rule": "30天搜索≥5、详情≥5、收藏≥2，近7天订单=0",
+      "size": 4983,
+      "active": 4983,
+      "search": 4983,
+      "detail": 4983,
+      "favorite": 4983,
+      "paying": 1266,
+      "gmv": 728495,
+      "cvr": 0.254064,
+      "coupon_rate": 0.018489,
+      "aov": 393.994051,
+      "orders": 1849,
+      "coupon_received": 52573,
+      "coupon_used": 972,
+      "gmv_share": 0.135215,
+      "detail_rate": 1.0,
+      "favorite_rate": 1.0,
+      "destinations": [
+        {
+          "name": "山水",
+          "value": 1289
+        },
+        {
+          "name": "海岛",
+          "value": 1235
+        },
+        {
+          "name": "周边游",
+          "value": 1230
+        },
+        {
+          "name": "城市",
+          "value": 1229
+        }
+      ],
+      "channels": [
+        {
+          "name": "App Push",
+          "value": 1010
+        },
+        {
+          "name": "短信",
+          "value": 1009
+        },
+        {
+          "name": "小红书",
+          "value": 999
+        },
+        {
+          "name": "微信",
+          "value": 995
+        },
+        {
+          "name": "自然搜索",
+          "value": 970
+        }
+      ]
+    },
+    {
+      "name": "价格敏感用户",
+      "rule": "30天已用券/已领券≥20%且偏好low",
+      "size": 108,
+      "active": 108,
+      "search": 108,
+      "detail": 108,
+      "favorite": 108,
+      "paying": 108,
+      "gmv": 99604,
+      "cvr": 1.0,
+      "coupon_rate": 0.255791,
+      "aov": 325.503268,
+      "orders": 306,
+      "coupon_received": 993,
+      "coupon_used": 254,
+      "gmv_share": 0.018487,
+      "detail_rate": 1.0,
+      "favorite_rate": 1.0,
+      "destinations": [
+        {
+          "name": "城市",
+          "value": 31
+        },
+        {
+          "name": "周边游",
+          "value": 29
+        },
+        {
+          "name": "山水",
+          "value": 24
+        },
+        {
+          "name": "海岛",
+          "value": 24
+        }
+      ],
+      "channels": [
+        {
+          "name": "短信",
+          "value": 28
+        },
+        {
+          "name": "自然搜索",
+          "value": 22
+        },
+        {
+          "name": "App Push",
+          "value": 21
+        },
+        {
+          "name": "微信",
+          "value": 19
+        },
+        {
+          "name": "小红书",
+          "value": 18
+        }
+      ]
+    },
+    {
+      "name": "潜在流失用户",
+      "rule": "累计订单>0且活跃间隔≥14天，或前15天访问≥4且后15天访问≤前期30%",
+      "size": 898,
+      "active": 421,
+      "search": 350,
+      "detail": 266,
+      "favorite": 148,
+      "paying": 43,
+      "gmv": 36224,
+      "cvr": 0.102138,
+      "coupon_rate": 0.024229,
+      "aov": 823.272727,
+      "orders": 44,
+      "coupon_received": 454,
+      "coupon_used": 11,
+      "gmv_share": 0.006723,
+      "detail_rate": 0.631829,
+      "favorite_rate": 0.556391,
+      "destinations": [
+        {
+          "name": "山水",
+          "value": 236
+        },
+        {
+          "name": "城市",
+          "value": 227
+        },
+        {
+          "name": "海岛",
+          "value": 226
+        },
+        {
+          "name": "周边游",
+          "value": 209
+        }
+      ],
+      "channels": [
+        {
+          "name": "App Push",
+          "value": 184
+        },
+        {
+          "name": "自然搜索",
+          "value": 184
+        },
+        {
+          "name": "微信",
+          "value": 181
+        },
+        {
+          "name": "短信",
+          "value": 179
+        },
+        {
+          "name": "小红书",
+          "value": 170
+        }
+      ]
+    },
+    {
+      "name": "其他用户",
+      "rule": "不满足以上规则；按上述顺序互斥分配",
+      "size": 1610,
+      "active": 1610,
+      "search": 1545,
+      "detail": 1441,
+      "favorite": 1116,
+      "paying": 735,
+      "gmv": 563015,
+      "cvr": 0.456522,
+      "coupon_rate": 0.054492,
+      "aov": 433.421863,
+      "orders": 1299,
+      "coupon_received": 9194,
+      "coupon_used": 501,
+      "gmv_share": 0.1045,
+      "detail_rate": 0.895031,
+      "favorite_rate": 0.774462,
+      "destinations": [
+        {
+          "name": "城市",
+          "value": 424
+        },
+        {
+          "name": "海岛",
+          "value": 404
+        },
+        {
+          "name": "周边游",
+          "value": 392
+        },
+        {
+          "name": "山水",
+          "value": 390
+        }
+      ],
+      "channels": [
+        {
+          "name": "自然搜索",
+          "value": 332
+        },
+        {
+          "name": "短信",
+          "value": 331
+        },
+        {
+          "name": "微信",
+          "value": 329
+        },
+        {
+          "name": "小红书",
+          "value": 315
+        },
+        {
+          "name": "App Push",
+          "value": 303
+        }
+      ]
+    }
+  ],
+  "funnel": [
+    {
+      "name": "访问",
+      "value": 9298,
+      "rate": 1,
+      "loss": 0
+    },
+    {
+      "name": "搜索",
+      "value": 9055,
+      "rate": 0.973865,
+      "loss": 243
+    },
+    {
+      "name": "详情点击",
+      "value": 8728,
+      "rate": 0.963887,
+      "loss": 327
+    },
+    {
+      "name": "收藏",
+      "value": 8056,
+      "rate": 0.923006,
+      "loss": 672
+    },
+    {
+      "name": "下单",
+      "value": 3486,
+      "rate": 0.432721,
+      "loss": 4570
+    }
+  ],
+  "diagnosis": "当前最大相对流失发生在收藏→下单阶段，流失率56.7%。",
+  "strategies": [
+    {
+      "sample_per_arm": 6338,
+      "id": "strategy-1",
+      "target": "新用户",
+      "insight": "30天活跃869人，详情访问率71.7%，收藏率63.2%，支付CVR 6.3%。",
+      "action": "根据该群体首选目的地发送分层推荐；每周最多一次",
+      "channel": "微信",
+      "offer": "无现金优惠，优先内容推荐",
+      "timing": "周四17:00–21:00（待实验验证的假设）",
+      "metric": "Purchase CVR",
+      "evidence": "segments/新用户 · 2026-09-21–2026-10-20",
+      "baseline": 0.063291
+    },
+    {
+      "sample_per_arm": null,
+      "id": "strategy-2",
+      "target": "高价值用户",
+      "insight": "30天活跃1307人，详情访问率100.0%，收藏率100.0%，支付CVR 97.9%。",
+      "action": "根据该群体首选目的地发送分层推荐；每周最多一次",
+      "channel": "App Push",
+      "offer": "无现金优惠，优先内容推荐",
+      "timing": "周四17:00–21:00（待实验验证的假设）",
+      "metric": "Purchase CVR",
+      "evidence": "segments/高价值用户 · 2026-09-21–2026-10-20",
+      "baseline": 0.978577
+    },
+    {
+      "sample_per_arm": 1222,
+      "id": "strategy-3",
+      "target": "高意向未转化",
+      "insight": "30天活跃4983人，详情访问率100.0%，收藏率100.0%，支付CVR 25.4%。",
+      "action": "筛选近期收藏且7天未下单用户，发送收藏目的地提醒",
+      "channel": "App Push",
+      "offer": "满299减30（单笔限用一次）",
+      "timing": "周四17:00–21:00（待实验验证的假设）",
+      "metric": "Purchase CVR",
+      "evidence": "segments/高意向未转化 · 2026-09-21–2026-10-20",
+      "baseline": 0.254064
+    },
+    {
+      "sample_per_arm": null,
+      "id": "strategy-4",
+      "target": "价格敏感用户",
+      "insight": "30天活跃108人，详情访问率100.0%，收藏率100.0%，支付CVR 100.0%。",
+      "action": "根据该群体首选目的地发送分层推荐；每周最多一次",
+      "channel": "短信",
+      "offer": "满299减30（单笔限用一次）",
+      "timing": "周四17:00–21:00（待实验验证的假设）",
+      "metric": "Purchase CVR",
+      "evidence": "segments/价格敏感用户 · 2026-09-21–2026-10-20",
+      "baseline": 1.0
+    },
+    {
+      "sample_per_arm": 3747,
+      "id": "strategy-5",
+      "target": "潜在流失用户",
+      "insight": "30天活跃421人，详情访问率63.2%，收藏率55.6%，支付CVR 10.2%。",
+      "action": "根据该群体首选目的地发送分层推荐；每周最多一次",
+      "channel": "App Push",
+      "offer": "无现金优惠，优先内容推荐",
+      "timing": "周四17:00–21:00（待实验验证的假设）",
+      "metric": "Purchase CVR",
+      "evidence": "segments/潜在流失用户 · 2026-09-21–2026-10-20",
+      "baseline": 0.102138
+    },
+    {
+      "sample_per_arm": 470,
+      "id": "strategy-6",
+      "target": "其他用户",
+      "insight": "30天活跃1610人，详情访问率89.5%，收藏率77.4%，支付CVR 45.7%。",
+      "action": "根据该群体首选目的地发送分层推荐；每周最多一次",
+      "channel": "自然搜索",
+      "offer": "无现金优惠，优先内容推荐",
+      "timing": "周四17:00–21:00（待实验验证的假设）",
+      "metric": "Purchase CVR",
+      "evidence": "segments/其他用户 · 2026-09-21–2026-10-20",
+      "baseline": 0.456522
+    }
+  ],
+  "destinations": [
+    {
+      "name": "山水",
+      "value": 2586
+    },
+    {
+      "name": "城市",
+      "value": 2496
+    },
+    {
+      "name": "海岛",
+      "value": 2481
+    },
+    {
+      "name": "周边游",
+      "value": 2437
+    }
+  ],
+  "channels": [
+    {
+      "name": "App Push",
+      "active": 1837,
+      "search": 1784,
+      "detail": 1722,
+      "favorite": 1598,
+      "paying": 693,
+      "gmv": 1112058,
+      "cvr": 0.377246,
+      "coupon_rate": 0.031266,
+      "aov": 680.574051,
+      "orders": 1634,
+      "coupon_received": 17047,
+      "coupon_used": 533
+    },
+    {
+      "name": "小红书",
+      "active": 1870,
+      "search": 1821,
+      "detail": 1746,
+      "favorite": 1618,
+      "paying": 709,
+      "gmv": 1071266,
+      "cvr": 0.379144,
+      "coupon_rate": 0.032985,
+      "aov": 661.683755,
+      "orders": 1619,
+      "coupon_received": 16735,
+      "coupon_used": 552
+    },
+    {
+      "name": "微信",
+      "active": 1877,
+      "search": 1816,
+      "detail": 1756,
+      "favorite": 1621,
+      "paying": 709,
+      "gmv": 1109102,
+      "cvr": 0.37773,
+      "coupon_rate": 0.029944,
+      "aov": 670.963097,
+      "orders": 1653,
+      "coupon_received": 16965,
+      "coupon_used": 508
+    },
+    {
+      "name": "短信",
+      "active": 1875,
+      "search": 1841,
+      "detail": 1776,
+      "favorite": 1622,
+      "paying": 678,
+      "gmv": 1040412,
+      "cvr": 0.3616,
+      "coupon_rate": 0.030921,
+      "aov": 652.295925,
+      "orders": 1595,
+      "coupon_received": 17270,
+      "coupon_used": 534
+    },
+    {
+      "name": "自然搜索",
+      "active": 1839,
+      "search": 1793,
+      "detail": 1728,
+      "favorite": 1597,
+      "paying": 697,
+      "gmv": 1054848,
+      "cvr": 0.37901,
+      "coupon_rate": 0.029205,
+      "aov": 666.78129,
+      "orders": 1582,
+      "coupon_received": 16641,
+      "coupon_used": 486
+    }
+  ],
+  "rules": [
+    {
+      "name": "新用户",
+      "rule": "注册≤7天且访问天数<4"
+    },
+    {
+      "name": "高价值用户",
+      "rule": "活跃间隔≤7天、30天访问≥10天、累计GMV≥5000"
+    },
+    {
+      "name": "高意向未转化",
+      "rule": "30天搜索≥5、详情≥5、收藏≥2，近7天订单=0"
+    },
+    {
+      "name": "价格敏感用户",
+      "rule": "30天已用券/已领券≥20%且偏好low"
+    },
+    {
+      "name": "潜在流失用户",
+      "rule": "累计订单>0且活跃间隔≥14天，或前15天访问≥4且后15天访问≤前期30%"
+    },
+    {
+      "name": "其他用户",
+      "rule": "不满足以上规则；按上述顺序互斥分配"
+    }
+  ]
+}
